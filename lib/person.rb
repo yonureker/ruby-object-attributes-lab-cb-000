@@ -8,10 +8,10 @@ class Person
   end
 
   def job(person_new_job)
-    @jobs = person_new_job
+    @job = person_new_job
   end
 
   def job
-    @jobs
+    @job
   end
 end
